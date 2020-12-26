@@ -55,7 +55,8 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-.btn {
+.btn:link,
+.btn:visited {
   /* Provides formatting like  block element, but doesnt occupy the whole width */
   display: inline-block;
   padding: 10px 30px;
@@ -65,13 +66,32 @@ h1 {
   border-radius: 200px;
 }
 
-.btn-full {
+.btn-full:link,
+.btn-full:visited {
   background-color: #e67e22;
   border: 1px solid #e67e22;
   color: #fff;
+  margin-right: 15px;
 }
 
-.btn-ghost {
+.btn-ghost:link,
+.btn-ghost:visited {
   border: 1px solid #e67e22;
   color: #e67e22;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
 }
