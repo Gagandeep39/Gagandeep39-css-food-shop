@@ -64,6 +64,9 @@ h1 {
   /* Remove href link */
   text-decoration: none;
   border-radius: 200px;
+  /* Animation */
+  /* transition: propert-on-which-we-apply-transition duratio */
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-full:link,
