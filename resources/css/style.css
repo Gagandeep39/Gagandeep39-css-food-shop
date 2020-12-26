@@ -33,11 +33,12 @@ header {
 }
 
 h1 {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
   color: #fff;
   /* Ensures h1 size will be 200% of default font size eg. currently its 40px as font-size in html{} is 20px */
   font-size: 240%;
-  font-weight: 300%;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
   word-spacing: 4px;
@@ -52,4 +53,25 @@ h1 {
   width: 1140px;
   /* Moves back 50% of total size of content to left and top */
   transform: translate(-50%, -50%);
+}
+
+.btn {
+  /* Provides formatting like  block element, but doesnt occupy the whole width */
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  /* Remove href link */
+  text-decoration: none;
+  border-radius: 200px;
+}
+
+.btn-full {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+}
+
+.btn-ghost {
+  border: 1px solid #e67e22;
+  color: #e67e22;
 }
