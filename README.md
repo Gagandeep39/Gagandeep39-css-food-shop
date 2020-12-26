@@ -10,6 +10,7 @@
   - [External References](#external-references)
   - [Steps to be executed](#steps-to-be-executed)
   - [Headers](#headers)
+  - [Bookmarks](#bookmarks)
 
 ## Steps to make a website
 
@@ -90,3 +91,8 @@ html {
 - Used to define tile, image, navigation etc.
 - Used by SEOs to know about the site
 - Better than using div which provides no meaning
+
+## Bookmarks
+
+1. Choose colors at <https://www.flatuicolors.com/>
+2. Look for color shades at <https://www.0to255.com/>
