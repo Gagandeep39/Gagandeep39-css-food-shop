@@ -96,3 +96,4 @@ html {
 
 1. Choose colors at <https://www.flatuicolors.com/>
 2. Look for color shades at <https://www.0to255.com/>
+3. Icons <https://ionicons.com/>
