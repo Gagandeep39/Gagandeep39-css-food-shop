@@ -10,6 +10,7 @@
   - [External References](#external-references)
   - [Steps to be executed](#steps-to-be-executed)
   - [Headers](#headers)
+  - [Figure](#figure)
   - [Bookmarks](#bookmarks)
 
 ## Steps to make a website
@@ -91,6 +92,12 @@ html {
 - Used to define tile, image, navigation etc.
 - Used by SEOs to know about the site
 - Better than using div which provides no meaning
+
+## Figure
+
+- Similar to image
+- Used to organize image content
+- img and its caption is added as child element in figure
 
 ## Bookmarks
 
