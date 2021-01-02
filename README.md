@@ -11,6 +11,7 @@
   - [Steps to be executed](#steps-to-be-executed)
   - [Headers](#headers)
   - [Figure](#figure)
+  - [Floats](#floats)
   - [Bookmarks](#bookmarks)
 
 ## Steps to make a website
@@ -98,6 +99,34 @@ html {
 - Similar to image
 - Used to organize image content
 - img and its caption is added as child element in figure
+
+## Floats
+
+- After creating floats, always clear the,
+- It can mess up DOM hierarchy
+
+```css
+/* Apply class in parent of child having float property */
+.clearfix {
+  zoom: 1;
+}
+.clearfix::after {
+  content: '.';
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block;
+}
+```
+
+- How to apply
+
+```html
+<ul class="clearfix">
+  <li></li>
+  <li></li>
+</ul>
+```
 
 ## Bookmarks
 
