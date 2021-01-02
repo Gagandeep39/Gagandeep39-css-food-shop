@@ -12,6 +12,7 @@
   - [Headers](#headers)
   - [Figure](#figure)
   - [Floats](#floats)
+  - [Tips](#tips)
   - [Bookmarks](#bookmarks)
 
 ## Steps to make a website
@@ -127,6 +128,10 @@ html {
   <li></li>
 </ul>
 ```
+
+## Tips
+
+- Section can be separated by applying a slight tint to one of the section
 
 ## Bookmarks
 
