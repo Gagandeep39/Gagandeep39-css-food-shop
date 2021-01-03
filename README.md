@@ -132,9 +132,11 @@ html {
 ## Tips
 
 - Section can be separated by applying a slight tint to one of the section
+- If we make an element absolute, make sure its parent is relative
 
 ## Bookmarks
 
 1. Choose colors at <https://www.flatuicolors.com/>
 2. Look for color shades at <https://www.0to255.com/>
 3. Icons <https://ionicons.com/>
+4. HTML glyphs <https://css-tricks.com/snippets/html/glyphs/>
