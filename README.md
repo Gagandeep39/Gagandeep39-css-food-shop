@@ -160,3 +160,4 @@ input[type='text'] {
 2. Look for color shades at <https://www.0to255.com/>
 3. Icons <https://ionicons.com/>
 4. HTML glyphs <https://css-tricks.com/snippets/html/glyphs/>
+5. Social media icon color <https://www.designpieces.com/2012/12/social-media-colours-hex-and-rgb/>
