@@ -1,6 +1,7 @@
 # Food Blog
 
 - [Food Blog](#food-blog)
+  - [Checout deployment at](#checout-deployment-at)
   - [Steps to make a website](#steps-to-make-a-website)
   - [Design Specs](#design-specs)
   - [Folder structure](#folder-structure)
@@ -15,6 +16,11 @@
   - [Selectors](#selectors)
   - [Tips](#tips)
   - [Bookmarks](#bookmarks)
+  - [Screenshots](#screenshots)
+
+## Checout deployment at
+
+- Refer the link <https://gagandeep39.github.io/Gagandeep39-css-food-shop/>
 
 ## Steps to make a website
 
@@ -161,3 +167,12 @@ input[type='text'] {
 3. Icons <https://ionicons.com/>
 4. HTML glyphs <https://css-tricks.com/snippets/html/glyphs/>
 5. Social media icon color <https://www.designpieces.com/2012/12/social-media-colours-hex-and-rgb/>
+
+## Screenshots
+
+![Header](<./screenshots/Screenshot%20(82).png>)
+![Features](<./screenshots/Screenshot%20(83).png>)
+![Grid Images](<./screenshots/Screenshot%20(85).png>)
+![Cities](<./screenshots/Screenshot%20(87).png>)
+![Pricing](<./screenshots/Screenshot%20(88).png>)
+![Contact & Footer](<./screenshots/Screenshot%20(89).png>)
