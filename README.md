@@ -12,6 +12,7 @@
   - [Headers](#headers)
   - [Figure](#figure)
   - [Floats](#floats)
+  - [Selectors](#selectors)
   - [Tips](#tips)
   - [Bookmarks](#bookmarks)
 
@@ -127,6 +128,25 @@ html {
   <li></li>
   <li></li>
 </ul>
+```
+
+## Selectors
+
+```css
+/* Select nth element */
+div:first-child {
+}
+/* Select by type */
+input[type='text'] {
+}
+/* Select child item of a class */
+.plan-box ul li {
+}
+
+/* Removes blackish outline on clicking n elemnt */
+*:focus {
+  outline: none;
+}
 ```
 
 ## Tips
