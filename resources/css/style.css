@@ -343,6 +343,10 @@ header {
   margin-right: 25px;
 }
 
+.works-step p {
+  margin-bottom: 4%;
+}
+
 .btn-app img {
   height: 50px;
   width: auto;
@@ -501,4 +505,84 @@ input[type='checkbox'] {
 /* Removes blackish outline on clicking n elemnt */
 *:focus {
   outline: none;
+}
+
+/* ------------------------------------------------ */
+/* Footer */
+/* ------------------------------------------------ */
+
+footer {
+  background: #333;
+  padding: 50px;
+  font-size: 80%;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #ddd;
+}
+
+footer p {
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram,
+.ion-social-reddit {
+  transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+  color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+  color: #55acee;
+}
+
+.ion-social-instagram:hover {
+  color: #4c68d7;
+}
+
+.ion-social-reddit:hover {
+  color: #ff4500;
 }
